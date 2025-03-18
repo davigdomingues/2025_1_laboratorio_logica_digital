@@ -1,0 +1,3 @@
+O projeto da aula03 foi acerca de um circuito lógico booleano que fosse fiel à uma situação problema de um robô o qual tem sensores localizados na sua frente, à direita e à esquerda (respectivamente, F, D, E). Além disso, ele somente se movimenta para a direita, para a esquerda ou para frente (respectivamente, comandos CD, CE, CF).
+
+O objetivo foi projetar um circuito lógico o qual representasse fielmente o contexto pedido, com as seguintes exigências:

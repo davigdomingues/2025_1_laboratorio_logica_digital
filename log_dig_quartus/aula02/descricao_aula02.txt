@@ -1,0 +1,36 @@
+O projeto da aula02 foi acerca de um circuito lógico booleano que fosse fiel à uma aplicação real de reservatório de água, que contém um alarme (A), três sensores (S1, S2 e S0), além de três válvulas (V1, V2, V3).
+
+O objetivo foi o de projetar um circuito, o qual reproduzisse fielmente o contexto das condições dadas no exercício, sendo elas:
+(1) a válvula V1 deve ser acionada quando o sensor S1 indicar presença de água;
+(2) a válvula V2 deve ser acionada somente quando os sensores S1 e S2 indicarem a presença de água;
+(3) a válvula V3 deve ser acionada somente quando nenhum dos sensores indicar a presença de água;
+(4) o alarme A deve soar quando S1 indicar presença de água, sem S0, ou quando S2 indicar presença de água sem S1 e/ou S
+
+Expressão para cada condição:
+(1) V1 = S1;
+(2) V2 = S1.S2
+(3) V3 = NOT(S1 + S2 + S0)
+(4) A = (S1.NOT(S0)) + (S2.(NOT(S1) + NOT(S0))
+
+onde "+" é a expressão OR, "." é a expressão booleana AND e "NOT" é o inverso da variável booleana (função NOT).
+
+Entradas:
+SW0 [nomeada como S1]
+SW1 [nomeada como S2]
+SW2 [nomeada como S0]
+
+Saídas:
+LEDR0 [nomeada como V1]
+LEDR1 [nomeada como V2]
+LEDR2 [nomeada como V3]
+LEDR3 [nomeada como A]
+
+As combinações que ascendem as saídas são:
+Saída LEDR0: S1 = 1
+Saída LEDR1: S1 = S2 = 1 (S0 = 0 ou S0 = 1)
+Saída LEDR2: S1 = S2 = S0 = 0
+Saída LEDR3: S1 = S0 = 0 e S2 = 1, S1 = 0 e S2 = S0 = 1, S1 = 1 e S2 = S0, S1 = S2 = 1 e S0 = 0
+
+Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
+
+A placa utilizada foi a DEO-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7).
