@@ -1,0 +1,5 @@
+O projeto da aula00, datada de 11/3/2025, foi de um circuito AND básico.
+
+Há duas entradas (PIN_U13 [nomeada como A] e PIN_V13 [nomeada como B]), além de uma saída (PIN_AA2 [nomeada como S]), configuradas no ambiente de desenvolvimento quartus ii Intel Web Model.
+
+A placa utilizada foi a DE0-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7)
