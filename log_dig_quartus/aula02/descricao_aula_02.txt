@@ -7,9 +7,9 @@ O objetivo foi o de projetar um circuito, o qual reproduzisse fielmente o contex
 (4) o alarme A deve soar quando S1 indicar presença de água, sem S0, ou quando S2 indicar presença de água sem S1 e/ou S
 
 Expressão para cada condição:
-(1) V1 = S1;
-(2) V2 = S1.S2
-(3) V3 = NOT(S1 + S2 + S0)
+(1) V1 = S1 + A;
+(2) V2 = S1.S2 + A
+(3) V3 = NOT(S1).NOT(S2).NOT(S0) = NOT(S1 + S2 + S0) --> (De Morgan)
 (4) A = (S1.NOT(S0)) + (S2.(NOT(S1) + NOT(S0))
 
 onde "+" é a expressão OR, "." é a expressão booleana AND e "NOT" é o inverso da variável booleana (função NOT).
@@ -25,11 +25,13 @@ LEDR1 [nomeada como V2]
 LEDR2 [nomeada como V3]
 LEDR3 [nomeada como A]
 
-As combinações que ascendem as saídas são:
-Saída LEDR0: S1 = 1
-Saída LEDR1: S1 = S2 = 1 (S0 = 0 ou S0 = 1)
-Saída LEDR2: S1 = S2 = S0 = 0
-Saída LEDR3: S1 = S0 = 0 e S2 = 1, S1 = 0 e S2 = S0 = 1, S1 = 1 e S2 = S0, S1 = S2 = 1 e S0 = 0
+Explicação comercial (aplicação):
+(1) A válvula V1 é acionada quando S1 é ativado, para esvaziar adequadamente a caixa d'água, pois foi-se alcançado o nível ideal de água.
+
+(2) Quando o alarme é acionado, todas as válvulas, exceto V3, são acionadas, já que há uma inconsistência lógica na sinalização dos sensores.
+
+(3) A válvula V3 é acionada quando nenhum sensor for acionado, uma vez que se realizaria o preenchimento da caixa d'água.
+
 
 Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
 
