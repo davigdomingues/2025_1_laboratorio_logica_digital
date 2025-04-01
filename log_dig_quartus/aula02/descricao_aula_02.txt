@@ -32,7 +32,6 @@ Explicação comercial (aplicação):
 
 (3) A válvula V3 é acionada quando nenhum sensor for acionado, uma vez que se realizaria o preenchimento da caixa d'água.
 
-
 Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
 
 A placa utilizada foi a DEO-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7).

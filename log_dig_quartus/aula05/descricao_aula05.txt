@@ -1,0 +1,49 @@
+O projeto da aula05 foi acerca de um circuito lógico booleano que simulasse fielmente um somador completo,
+composto por entradas A, B e Carry In (Cin) e pelas saídas Soma (S) e Carry Out (Cout).
+
+O objetivo foi projetar um circuito lógico o qual mostrasse corretamente todos os casos lógicos para
+o somador. Considerando as entradas e a soma binária envolvida, tem-se, primeiramente a seguinte tabela verdade:
+
+A	B  Cin   S	 Cout
+0	0	0	  0	   0
+0	0	1	  1	   0
+0	1	0	  1	   0
+0	1	1	  0	   1
+1	0	0	  1	   0
+1	0	1	  0	   1
+1	1	0	  0	   1
+1	1	1	  1	   1
+
+Cin é o bit de entrada de outro circuito somador qualquer, onde aquele valor comporá a soma do número binário a ser
+tratado como informação no sistema lógico aplicado.
+
+Cout é o bit de saída do somador completo, o qual pode compor o valor de Cin de outro somador ou ser o valor final
+em si.
+
+Usou-se a simplificação booleana das saídas para otimizar o circuito lógico. Nesse caso, as equações Booleanas são:
+(equações originais):
+1) S = NOT(A)*NOT(B)*Cin + NOT(A)*B*NOT(Cin) + A*NOT(B)NOT(C) + A*B*Cin
+2) Cout = NOT(A)*B*Cin + A*NOT(B)*Cin + A*B*NOT(Cin) + A*B*Cin
+
+(equações simplificadas)
+1.1) S = A XOR B XOR Cin
+2.1) Cout = Cin*(A XOR B) + A*B*Cin
+
+Legenda:
+*: operação booleana AND;
++: operação booleana OR;
+NOT: operação booleana NOT;
+XOR: operação booleana COR;
+
+Entradas:
+SW0 [nomeada como A]
+SW1 [nomeada como B]
+SW2 [nomeada como Cin]
+
+Saídas:
+LEDR0 [nomeada como Cout]
+LEDR1 [nomeada como S]
+
+Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
+
+A placa utilizada foi a DEO-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7).

@@ -1,0 +1,13 @@
+|aula05
+S <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+A => inst8.IN0
+A => inst.IN0
+A => inst3.IN0
+B => inst8.IN1
+B => inst.IN1
+B => inst3.IN1
+Cin => inst9.IN1
+Cin => inst4.IN1
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+

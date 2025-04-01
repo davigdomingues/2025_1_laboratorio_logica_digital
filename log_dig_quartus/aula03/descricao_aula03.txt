@@ -1,3 +1,23 @@
 O projeto da aula03 foi acerca de um circuito lógico booleano que fosse fiel à uma situação problema de um robô o qual tem sensores localizados na sua frente, à direita e à esquerda (respectivamente, F, D, E). Além disso, ele somente se movimenta para a direita, para a esquerda ou para frente (respectivamente, comandos CD, CE, CF).
 
 O objetivo foi projetar um circuito lógico o qual representasse fielmente o contexto pedido, com as seguintes exigências:
+(1) O robô recebe o comando CF sempre que F = 0;
+(2) O robô deve executar CE apenas quando D = 1 e E = 0
+(3) O robô deve executar CD quando ocorrer uma das três situações:
+	a) E = 1 e D = 0
+	b) E = D = 0 e F = 1
+	c) E = D = F = 1
+
+Entradas:
+SW0 [nomeada como D]
+SW1 [nomeada como F]
+SW2 [nomeada como E]
+
+Saídas:
+LEDR0 [nomeada como CF]
+LEDR1 [nomeada como CE]
+LEDR2 [nomeada como CD]
+
+Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
+
+A placa utilizada foi a DEO-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7).

@@ -1,0 +1,18 @@
+O projeto da aula04 foi acerca de um display de 7 segmentos, o qual deve ser mostrado em hexadecimal para entradas
+de 4 bits.
+
+O objetivo foi projetar um circuito lógico o simulasse corretamente todos os casos de input associados ao display
+de 7 segmentos.
+
+Entradas:
+SW0 [nomeada como ]
+SW1 [nomeada como ]
+SW2 [nomeada como ]
+
+Saídas:
+LEDR0 [nomeada como ]
+LEDR1 [nomeada como ]
+
+Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
+
+A placa utilizada foi a DEO-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7).
