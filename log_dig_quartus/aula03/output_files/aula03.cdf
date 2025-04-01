@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(5CEBA4F23) Path("C:/Users/15447497/Desktop/aula03/output_files/") File("aula03.sof") MfrSpec(OpMask(1));
+		Device PartName(5CEBA4F23) Path("D:/20250219_Davi_2_backup/Lab de LD/aula03/output_files/") File("aula03.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

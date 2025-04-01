@@ -16,15 +16,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "D",
-					"strict" : false
-				},
-				{
 					"name" : "F",
 					"strict" : false
 				},
 				{
 					"name" : "E",
+					"strict" : false
+				},
+				{
+					"name" : "D",
 					"strict" : false
 				}
 			]

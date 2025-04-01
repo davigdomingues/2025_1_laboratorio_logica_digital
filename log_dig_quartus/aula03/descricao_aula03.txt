@@ -1,12 +1,26 @@
 O projeto da aula03 foi acerca de um circuito lógico booleano que fosse fiel à uma situação problema de um robô o qual tem sensores localizados na sua frente, à direita e à esquerda (respectivamente, F, D, E). Além disso, ele somente se movimenta para a direita, para a esquerda ou para frente (respectivamente, comandos CD, CE, CF).
 
 O objetivo foi projetar um circuito lógico o qual representasse fielmente o contexto pedido, com as seguintes exigências:
-(1) O robô recebe o comando CF sempre que F = 0;
+(1) O robô recebe o comando CF SEMPRE que F = 0;
 (2) O robô deve executar CE apenas quando D = 1 e E = 0
 (3) O robô deve executar CD quando ocorrer uma das três situações:
 	a) E = 1 e D = 0
 	b) E = D = 0 e F = 1
 	c) E = D = F = 1
+
+Há casos nos quais podem ocorrer o acionamento de dois comandos (CF e CD/CE, no caso para D = F = 0 e E = 1 ou D = 1 e E = F = 0. Considerando o contexto do problema, mais
+especificamente o item (1), deve-se, então, priorizar o comando CF.
+Dessa forma, garantir-se há que todos os casos lógicos terão apenas um comando de movimentação associado, sem confitos.
+
+Equações booleanas simplificadas para cada comando:
+CF = NOT(F)
+CE = D*NOT(E)*F
+CD = F*(NOT(D) + E)
+
+Legenda:
+NOT: operação booleana NOT;
+*: operação booleana AND;
++: operação booleana OR
 
 Entradas:
 SW0 [nomeada como D]
@@ -14,9 +28,9 @@ SW1 [nomeada como F]
 SW2 [nomeada como E]
 
 Saídas:
-LEDR0 [nomeada como CF]
-LEDR1 [nomeada como CE]
-LEDR2 [nomeada como CD]
+LEDR0 [nomeada como CD]
+LEDR1 [nomeada como CF]
+LEDR2 [nomeada como CE]
 
 Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
 

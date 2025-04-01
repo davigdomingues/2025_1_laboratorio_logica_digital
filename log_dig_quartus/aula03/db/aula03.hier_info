@@ -1,13 +1,13 @@
 |aula03
-CD <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CD <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+F => inst6.IN0
+F => inst3.IN0
+F => inst4.IN1
+E => inst5.IN0
+E => inst.IN0
+D => inst2.IN0
 D => inst4.IN0
-D => inst10.IN0
-F => inst5.IN0
-F => inst7.IN0
-E => inst.IN2
-E => inst1.IN0
-E => inst3.IN0
-CF <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-CE <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CF <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CE <= inst4.DB_MAX_OUTPUT_PORT_TYPE
 
 
