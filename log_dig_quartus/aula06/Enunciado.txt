@@ -1,0 +1,5 @@
+Implementar e testar um circuito que soma palavras de quatro bits.
+
+Utilize o "Somador Completo" (o circuito da Aula 5), salvo como um bloco de circuito lógico ("Block Symbol/File") no Quartus, conforme mostra o seguinte vídeo:
+
+https://www.youtube.com/watch?v=Z6iYVo8p9A0

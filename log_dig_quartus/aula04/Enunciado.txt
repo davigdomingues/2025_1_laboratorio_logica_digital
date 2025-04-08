@@ -1,0 +1,1 @@
+Projetar o controle de um display de 7 segmentos (mostrando em hexadecimal) para entradas (4bits).
