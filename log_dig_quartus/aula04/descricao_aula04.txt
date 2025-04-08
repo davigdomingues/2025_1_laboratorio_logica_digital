@@ -1,17 +1,42 @@
-O projeto da aula04 foi acerca de um display de 7 segmentos, o qual deve ser mostrado em hexadecimal para entradas
-de 4 bits.
+O projeto da aula04 foi acerca de um circuito lógico booleano que simulasse fielmente um display de 7 segmentos.
 
-O objetivo foi projetar um circuito lógico o simulasse corretamente todos os casos de input associados ao display
-de 7 segmentos.
+O objetivo foi projetar um circuito lógico o qual mostrasse corretamente todos os casos lógicos para o display, considerando as especificidades inclusas no manual da placa utilizada na aula. Considerando as entradas, os segmentos devidamente acendidos em cada caso lógico (numeração hexadecimal), tem-se as seguintes expressões booleanas para cada segmento:
+
+a = (NOT(S3)*(A OR NOT(B))) OR (NOT(A)*(B*D OR C)) OR (A*NOT(B)*NOT(C)) OR (B*C)
+
+b = (D*(A XOR C)) OR (NOT(B)*(NOT(C) OR NOT(D))) OR (NOT(A)*NOT(C)*NOT(D))
+
+c = (D*(NOT(A) OR NOT(C))) OR (A XOR B) OR (NOT(B)*NOT(C))
+
+d = (NOT(C)*(B XNOR D)) OR (A*(B XOR D)) OR (NOT(A)*C*(NOT(B) OR NOT(D))
+
+e = (A*(B OR C)) OR (NOT(D)*(NOT(B) OR C))
+
+f = (A*(NOT(B) OR C)) OR (NOT(D)*(B OR NOT(C)) OR (NOT(A)*B*NOT(C))
+
+g = (C*(NOT(B) OR NOT(D)) OR (A*(NOT(B) OR D)) OR (NOT(A)*B*NOT(C))
+
+Legenda:
+*: operação booleana AND;
++: operação booleana OR;
+NOT: operação booleana NOT;
+XOR: operação booleana XOR;
+XNOR: operação booleana XNOR.
 
 Entradas:
-SW0 [nomeada como ]
-SW1 [nomeada como ]
-SW2 [nomeada como ]
+SW0 [nomeada como S3]
+SW1 [nomeada como S2]
+SW2 [nomeada como S1]
+SW3 [nomeada como S0]
 
 Saídas:
-LEDR0 [nomeada como ]
-LEDR1 [nomeada como ]
+HEX00 [nomeada como a]
+HEX01 [nomeada como b]
+HEX02 [nomeada como c]
+HEX03 [nomeada como d]
+HEX04 [nomeada como e]
+HEX05 [nomeada como f]
+HEX06 [nomeada como g]
 
 Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
 
