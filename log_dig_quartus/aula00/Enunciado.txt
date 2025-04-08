@@ -1,0 +1,1 @@
+Implemente um circuito AND booleano simples para se ambientar incialmente com o Quartus Web Edition.
