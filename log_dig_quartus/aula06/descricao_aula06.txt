@@ -1,0 +1,66 @@
+O projeto da aula06 foi acerca de um circuito lógico booleano que simulasse fielmente um somador completo de palavras de 4 bits.
+
+O objetivo foi projetar um circuito lógico o qual mostrasse corretamente todos os casos lógicos para
+o somador solicitado. Considerando as entradas e a soma binária envolvida, tem-se, primeiramente a seguinte tabela verdade (válido para cada bloco somador
+outrora projetado):
+
+A	B  	Cin   S	 Cout
+0	0	0	  0	   0
+0	0	1	  1	   0
+0	1	0	  1	   0
+0	1	1	  0	   1
+1	0	0	  1	   0
+1	0	1	  0	   1
+1	1	0	  0	   1
+1	1	1	  1	   1
+
+Contextualização:
+Foi utilizado o circuito de display hexadecimal, construído devidamente na aula04, para mostrar os resultados corretamente na placa utilizada no laboratório.
+
+Usou-se a simplificação booleana das saídas para otimizar o circuito lógico. Nesse caso, as equações Booleanas são as mesmas presentes nos projetos das aulas aula04 e aula05,
+uma vez que, para se compor o circuito, foram utilizados qdf's (quartus diagram files) para reaproveitar os circuitos já produzidos anteriormente.
+
+Entradas:
+SW0 [nomeada como A0]
+SW1 [nomeada como A1]
+SW2 [nomeada como A2]
+SW3 [nomeada como A3]
+SW4 [nomeada como B0]
+SW5 [nomeada como B1]
+SW6 [nomeada como B2]
+SW7 [nomeada como B3]
+
+Saída
+HEX00 [nomeada como sa0]
+HEX01 [nomeada como sa1]
+HEX02 [nomeada como sa2]
+HEX03 [nomeada como sa3]
+HEX04 [nomeada como sa4]
+HEX05 [nomeada como sa5]
+HEX06 [nomeada como sa6]
+HEX10 [nomeada como sb0]
+HEX11 [nomeada como sb1]
+HEX12 [nomeada como sb2]
+HEX13 [nomeada como sb3]
+HEX14 [nomeada como sb4]
+HEX15 [nomeada como sb5]
+HEX16 [nomeada como sb6]
+HEX20 [nomeada como ss0]
+HEX21 [nomeada como ss1]
+HEX22 [nomeada como ss2]
+HEX23 [nomeada como ss3]
+HEX24 [nomeada como ss4]
+HEX25 [nomeada como ss5]
+HEX26 [nomeada como ss6]
+HEX30 [nomeada como sc0]
+HEX31 [nomeada como sc1]
+HEX32 [nomeada como sc2]
+HEX33 [nomeada como sc3]
+HEX34 [nomeada como sc4]
+HEX35 [nomeada como sc5]
+HEX36 [nomeada como sc6]
+
+
+Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
+
+A placa utilizada foi a DEO-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7).
