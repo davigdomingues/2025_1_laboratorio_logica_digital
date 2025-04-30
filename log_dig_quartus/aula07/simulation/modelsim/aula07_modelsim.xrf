@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/domin/programas_faculdade/log_dig_quartus/backup/aula07/aula07.bdf
+source_file = 1, C:/Users/domin/programas_faculdade/log_dig_quartus/backup/aula07/db/aula07.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/others/maxplus2/xor3.bdf
+design_name = aula07
+instance = comp, \Bout~output\, Bout~output, aula07, 1
+instance = comp, \D~output\, D~output, aula07, 1
+instance = comp, \B~input\, B~input, aula07, 1
+instance = comp, \A~input\, A~input, aula07, 1
+instance = comp, \Bin~input\, Bin~input, aula07, 1
+instance = comp, \inst3~0\, inst3~0, aula07, 1
+instance = comp, \inst|1~0\, inst|1~0, aula07, 1

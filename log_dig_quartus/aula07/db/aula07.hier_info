@@ -1,0 +1,20 @@
+|aula07
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst6.IN0
+A => XOR3:inst.IN1
+B => inst2.IN1
+B => inst4.IN0
+B => XOR3:inst.IN2
+Bin => inst1.IN0
+Bin => XOR3:inst.IN3
+D <= XOR3:inst.OUT
+
+
+|aula07|XOR3:inst
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+

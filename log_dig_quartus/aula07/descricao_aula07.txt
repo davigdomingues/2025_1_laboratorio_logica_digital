@@ -1,0 +1,44 @@
+O projeto da aula07 foi acerca de um circuito lógico booleano que simulasse fielmente um subtrator completo,
+composto por entradas A, B e Borrow In (Bin) e pelas saídas Diferença (D) e Borrow Out (Bout).
+
+O objetivo foi projetar um circuito lógico o qual mostrasse corretamente todos os casos lógicos para
+o somador. Considerando as entradas e a soma binária envolvida, tem-se, primeiramente a seguinte tabela verdade:
+
+A	B  Bin    D	 Bout
+0	0	0	  0	   0
+0	0	1	  1	   1
+0	1	0	  1	   1
+0	1	1	  0	   1
+1	0	0	  1	   0
+1	0	1	  0	   0
+1	1	0	  0	   0
+1	1	1	  1	   1
+
+Bin é o bit de entrada de outro circuito somador qualquer, onde aquele valor comporá a soma do número binário a ser
+tratado como informação no sistema lógico aplicado.
+
+Bout é o bit de saída do somador completo, o qual pode compor o valor de Bin de outro somador ou ser o valor final
+em si.
+
+Usou-se a simplificação booleana das saídas para otimizar o circuito lógico. Nesse caso, as equações Booleanas devidamente simplificadas são:
+1.1) D = A XOR B XOR Bin
+2.1) Bout = (Bin*(NOT(A) + B)) + (NOT(A)*B)
+
+Legenda:
+*: operação booleana AND;
++: operação booleana OR;
+NOT: operação booleana NOT;
+XOR: operação booleana XOR;
+
+Entradas:
+SW0 [nomeada como A]
+SW1 [nomeada como B]
+SW2 [nomeada como Bin]
+
+Saídas:
+LEDR0 [nomeada como Bout]
+LEDR1 [nomeada como D]
+
+Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
+
+A placa utilizada foi a DEO-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7).
