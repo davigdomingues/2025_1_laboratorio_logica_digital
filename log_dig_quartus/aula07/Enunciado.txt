@@ -1,0 +1,1 @@
+Implementar e testar o circuito Subtrator Completo. Compor um bloco de circuito lógico ("Block Symbol/File" para uso no Quartus).
