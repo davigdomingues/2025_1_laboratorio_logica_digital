@@ -4,3 +4,5 @@ Esquemas produzidos durante a ministração da disciplina "Prática em Lógica D
 Uso do ambiente de programação, para FPGA, Quartus Web Edition 21.3 64 bits, além das placas Cyclone IV E (DE2_115) e Cyclone V (DE0_CV) no laboratório usado durante os experimentos.
 
 Ementa oficial da disciplina: https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=SSC0109&codcur=55041&codhab=0
+
+Planilha de pinagem (autoria): Arthur Alexandre Santos Santana (e-mail institucional: a.santana@usp.br)
