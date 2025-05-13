@@ -1,0 +1,2 @@
+Implementar e testar um circuito que subtrai palavras de quatro bits. 
+Entradas e saídas devem ser mostradas em displays de 7 segmentos.

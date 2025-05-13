@@ -1,0 +1,3 @@
+Implementar e testar um circuito subtrator/somador com complemento de 2. 
+O usuário deve ver as entradas de forma usual (quatro bits para magnitude e um para sinal), e a saída com 8 bits para magnitude e um para sinal, sem complemento de 2. 
+Deve ser usado um botão para indicar se a operação sobre os 2 números de entrada será de soma ou de subtração. 
