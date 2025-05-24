@@ -1,1 +1,73 @@
-.
+Nome: Davi Gabriel Domingues
+N° USP: 15447497
+
+O projeto da aula09 foi acerca de um circuito lógico booleano que simulasse fielmente um somador/subtrator completo de palavras de 4 bits, com entradas
+em magnitude e sinal.
+
+O objetivo foi projetar um circuito lógico o qual mostrasse corretamente todos os casos lógicos para
+o somador/subtrator solicitado.
+
+Contextualização:
+Foi utilizado o circuito de display hexadecimal, construído devidamente na aula04, para mostrar os resultados corretamente na placa utilizada no laboratório.
+Além disso, foi-se usado o somador de 1 bit, gerado na aula05, para montar o bloco "somador4BitsDobrado" (somador de 8 bits), assim como houve a implementação
+do componente "complemento2Handler", o qual lida, a partir do uso de multiplexadores e do bloco somador mencionado, com os casos em que se deve realizar o complemento de 2
+da entrada informada pelo usuário. Assim, a magnitude com o seu devido sinal são tratados pela lógica interna do circuito devidamente, já que não só haverá o correto lidamento dos casos
+numéricos, como também o usuário verá os inputs padrão como resultado em módulo, ou seja, se for positivo, os displays mostrarão os resultados padrão, mas se for negativo terá um LED como sinal
+de esclarecimento. 
+
+Usou-se a simplificação booleana das saídas para otimizar o circuito lógico. Nesse caso, as equações Booleanas são as mesmas presentes nos projetos das aulas aula04 e aula05,
+uma vez que, para se compor o circuito, foram utilizados qdf's (quartus diagram files) para reaproveitar os circuitos já produzidos anteriormente.
+
+Entradas:
+SW0 [nomeada como A_sinal]
+SW1 [nomeada como A0]
+SW2 [nomeada como A1]
+SW3 [nomeada como A2]
+SW4 [nomeada como A3]
+SW5 [nomeada como B_sinal]
+SW6 [nomeada como B0]
+SW7 [nomeada como B1]
+SW8 [nomeada como B2]
+SW9 [nomeada como B3]
+
+Saídas:
+- Input A:
+HEX00 [nomeada como sa7]
+HEX01 [nomeada como sa8]
+HEX02 [nomeada como sa9]
+HEX03 [nomeada como sa10]
+HEX04 [nomeada como sa11]
+HEX05 [nomeada como sa12]
+HEX06 [nomeada como sa13]
+
+- Input B:
+HEX20 [nomeada como sb7]
+HEX21 [nomeada como sb8]
+HEX22 [nomeada como sb9]
+HEX23 [nomeada como sb10]
+HEX24 [nomeada como sb11]
+HEX25 [nomeada como sb12]
+HEX26 [nomeada como sb13]
+
+- Output dos 4 primeiros bits:
+HEX40 [nomeada como 0]
+HEX41 [nomeada como 1]
+HEX42 [nomeada como 2]
+HEX43 [nomeada como 3]
+HEX44 [nomeada como 4]
+HEX45 [nomeada como 5]
+HEX46 [nomeada como 6]
+
+- Output dos 4 outros bits restantes:
+HEX50 [nomeada como 0_1]
+HEX51 [nomeada como 1_1]
+HEX52 [nomeada como 1_2]
+HEX53 [nomeada como 1_3]
+HEX54 [nomeada como 1_4]
+HEX55 [nomeada como 1_5]
+HEX56 [nomeada como 1_6]
+
+
+Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
+
+A placa utilizada foi a DEO-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7).
