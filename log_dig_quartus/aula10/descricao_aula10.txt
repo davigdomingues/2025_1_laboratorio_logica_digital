@@ -1,22 +1,24 @@
 Nome: Davi Gabriel Domingues
 N° USP: 15447497
 
-O projeto da aula09 foi acerca de um circuito lógico booleano que simulasse fielmente um somador/subtrator completo de palavras de 4 bits, com entradas
+O projeto da aula10 foi acerca de um circuito lógico booleano que simulasse fielmente um multiplicador completo de palavras de 4 bits, com entradas
 em magnitude e sinal.
 
 O objetivo foi projetar um circuito lógico o qual mostrasse corretamente todos os casos lógicos para
-o somador/subtrator solicitado.
+o multiplicador solicitado.
 
 Contextualização:
 Foi utilizado o circuito de display hexadecimal, construído devidamente na aula04, para mostrar os resultados corretamente na placa utilizada no laboratório.
-Além disso, foi-se usado o somador de 1 bit, gerado na aula05, para montar o bloco "somador4BitsDobrado" (somador de 8 bits), assim como houve a implementação
-do componente "complemento2Handler", o qual lida, a partir do uso de multiplexadores e do bloco somador mencionado, com os casos em que se deve realizar o complemento de 2
-da entrada informada pelo usuário. Assim, a magnitude com o seu devido sinal são tratados pela lógica interna do circuito devidamente, já que não só haverá o correto lidamento dos casos
-numéricos, como também o usuário verá os inputs padrão como resultado em módulo, ou seja, se for positivo, os displays mostrarão os resultados padrão, mas se for negativo terá um LED como sinal
-de esclarecimento. 
+Além disso, foi-se usado o somador de 1 bit, gerado na aula05.
+
+A magnitude foi tratada puramente com um tratamento de acendimento de LED separado, já que, na prática, não há necessidade de se fazer uma lógica de
+complemento de dois para um processo o qual o sinal não influenciará o resultado final prático 
 
 Usou-se a simplificação booleana das saídas para otimizar o circuito lógico. Nesse caso, as equações Booleanas são as mesmas presentes nos projetos das aulas aula04 e aula05,
 uma vez que, para se compor o circuito, foram utilizados qdf's (quartus diagram files) para reaproveitar os circuitos já produzidos anteriormente.
+
+Além disso, foi-se implementado uma lógica para o componente multiplicadorSomador, onde a entrada do valor A do somador é o bit acumulador da soma, o B é
+o resultado de (bit_A AND bit_B) e o Cin é o bit carry da soma (reentrância do shift para o algoritmo de soma binária). O significado de A, B e Cin são os mesmos da aula05, previamente documentada.
 
 Entradas:
 SW0 [nomeada como A_sinal]
@@ -24,6 +26,7 @@ SW1 [nomeada como A0]
 SW2 [nomeada como A1]
 SW3 [nomeada como A2]
 SW4 [nomeada como A3]
+
 SW5 [nomeada como B_sinal]
 SW6 [nomeada como B0]
 SW7 [nomeada como B1]
@@ -67,10 +70,10 @@ HEX54 [nomeada como 1_4]
 HEX55 [nomeada como 1_5]
 HEX56 [nomeada como 1_6]
 
-Sinalização de sinais negativos:
-LEDR0 [nomeado como sinal_A]
-LEDR3 [nomeado como sinal_B]
-LEDR9 [nomeado como sinal_final]
+- Sinais negativos:
+LEDR0 [nomeada como sinal_A_led]
+LEDR3 [nomeada como sinal_B_led]
+LEDR9 [nomeada como sinal_final]
 
 Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
 

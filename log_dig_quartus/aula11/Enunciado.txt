@@ -1,0 +1,4 @@
+Implementar e testar o circuito de um divisor (palavras de quatro bits), composto por blocos de divisão, 
+conforme diagramas apesentados nos "slides" da aula teórica correspondente.
+
+Entradas e saídas podem ser negativas e devem ser mostradas em displays de 7 segmentos.

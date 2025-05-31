@@ -1,0 +1,72 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 304 144)
+	(text "multiplicadorSomador" (rect 5 0 138 14)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 112 24 124)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "bit_soma_acumulada" (rect 0 0 127 14)(font "Intel Clear" (font_size 8)))
+		(text "bit_soma_acumulada" (rect 21 27 148 41)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "bit_A" (rect 0 0 31 14)(font "Intel Clear" (font_size 8)))
+		(text "bit_A" (rect 21 43 52 57)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "bit_B" (rect 0 0 31 14)(font "Intel Clear" (font_size 8)))
+		(text "bit_B" (rect 21 59 52 73)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "carry_soma" (rect 0 0 68 14)(font "Intel Clear" (font_size 8)))
+		(text "carry_soma" (rect 21 75 89 89)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "soma_acumulada" (rect 0 0 103 14)(font "Intel Clear" (font_size 8)))
+		(text "soma_acumulada" (rect 164 27 267 41)(font "Intel Clear" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(port
+		(pt 288 48)
+		(output)
+		(text "carry_acumulado" (rect 0 0 101 14)(font "Intel Clear" (font_size 8)))
+		(text "carry_acumulado" (rect 166 43 267 57)(font "Intel Clear" (font_size 8)))
+		(line (pt 288 48)(pt 272 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 112))
+	)
+)

@@ -1,0 +1,1 @@
+Implementar e testar um circuito multiplicador (palavras de quatro bits) utilizando unidades de multiplicação. As entradas e saídas podem ser negativas e devem ser mostradas em displays de 7 segmentos.

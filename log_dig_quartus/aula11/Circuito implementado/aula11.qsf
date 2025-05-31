@@ -1,0 +1,120 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2025  Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Altera and sold by Altera or its authorized distributors.  Please
+# refer to the Altera Software License Subscription Agreements 
+# on the Quartus Prime software download page.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+# Date created = 20:48:09  May 30, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		aula11_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CEBA4F23C7
+set_global_assignment -name TOP_LEVEL_ENTITY aula11
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 24.1STD.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:48:09  MAY 30, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "24.1std.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name BDF_FILE subtratorCompleto.bdf
+set_global_assignment -name BDF_FILE divisorModulo.bdf
+set_global_assignment -name BDF_FILE aula11.bdf
+set_global_assignment -name BDF_FILE displayHexadecimal.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_T13 -to A1
+set_location_assignment PIN_T12 -to A2
+set_location_assignment PIN_AA15 -to A3
+set_location_assignment PIN_V13 -to A0
+set_location_assignment PIN_AA13 -to B1
+set_location_assignment PIN_AB13 -to B2
+set_location_assignment PIN_AB12 -to B3
+set_location_assignment PIN_AA14 -to B0
+set_location_assignment PIN_AB15 -to sinal_B
+set_location_assignment PIN_U13 -to sinal_A
+set_location_assignment PIN_V21 -to a_1
+set_location_assignment PIN_W22 -to a_2
+set_location_assignment PIN_W21 -to a_3
+set_location_assignment PIN_Y22 -to a_4
+set_location_assignment PIN_Y21 -to a_5
+set_location_assignment PIN_AA22 -to a_6
+set_location_assignment PIN_U21 -to a_0
+set_location_assignment PIN_AB20 -to b_1
+set_location_assignment PIN_AA19 -to b_2
+set_location_assignment PIN_AA18 -to b_3
+set_location_assignment PIN_AB18 -to b_4
+set_location_assignment PIN_AA17 -to b_5
+set_location_assignment PIN_U22 -to b_6
+set_location_assignment PIN_AA20 -to b_0
+set_location_assignment PIN_Y20 -to sfa1
+set_location_assignment PIN_V20 -to sfa2
+set_location_assignment PIN_U16 -to sfa3
+set_location_assignment PIN_U15 -to sfa4
+set_location_assignment PIN_Y15 -to sfa5
+set_location_assignment PIN_P9 -to sfa6
+set_location_assignment PIN_U20 -to sfa0
+set_location_assignment PIN_M8 -to sfb1
+set_location_assignment PIN_T14 -to sfb2
+set_location_assignment PIN_P14 -to sfb3
+set_location_assignment PIN_C1 -to sfb4
+set_location_assignment PIN_C2 -to sfb5
+set_location_assignment PIN_W19 -to sfb6
+set_location_assignment PIN_N9 -to sfb0
+set_location_assignment PIN_AB17 -to sfr1
+set_location_assignment PIN_AA10 -to sfr2
+set_location_assignment PIN_Y14 -to sfr3
+set_location_assignment PIN_V14 -to sfr4
+set_location_assignment PIN_AB22 -to sfr5
+set_location_assignment PIN_AB21 -to sfr6
+set_location_assignment PIN_Y16 -to sfr7
+set_location_assignment PIN_W16 -to sfr8
+set_location_assignment PIN_Y17 -to sfr9
+set_location_assignment PIN_U17 -to sfr11
+set_location_assignment PIN_V18 -to sfr12
+set_location_assignment PIN_V19 -to sfr13
+set_location_assignment PIN_Y19 -to sfr0
+set_location_assignment PIN_L1 -to alerta_overflow
+set_location_assignment PIN_Y3 -to sinal_final_B
+set_location_assignment PIN_AA2 -to sinal_final_A
+set_location_assignment PIN_U1 -to sinal_final
+set_location_assignment PIN_V16 -to SFR
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

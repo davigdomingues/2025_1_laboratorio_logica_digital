@@ -1,0 +1,2 @@
+Implementar e testar o circuito de cálculo da raiz quadrada (palavras de quatro bits na saída e oito na entrada), composto por blocos de divisão, 
+conforme diagramas apesentados nos "slides" da aula teórica correspondente:

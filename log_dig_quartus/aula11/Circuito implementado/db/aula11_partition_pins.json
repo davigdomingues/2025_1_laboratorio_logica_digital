@@ -1,0 +1,193 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sinal_final",
+					"strict" : false
+				},
+				{
+					"name" : "alerta_overflow",
+					"strict" : false
+				},
+				{
+					"name" : "sfb1",
+					"strict" : false
+				},
+				{
+					"name" : "sfb2",
+					"strict" : false
+				},
+				{
+					"name" : "sfb6",
+					"strict" : false
+				},
+				{
+					"name" : "sfb3",
+					"strict" : false
+				},
+				{
+					"name" : "sfa0",
+					"strict" : false
+				},
+				{
+					"name" : "sfa1",
+					"strict" : false
+				},
+				{
+					"name" : "sfa2",
+					"strict" : false
+				},
+				{
+					"name" : "sfa3",
+					"strict" : false
+				},
+				{
+					"name" : "sfa4",
+					"strict" : false
+				},
+				{
+					"name" : "sfa5",
+					"strict" : false
+				},
+				{
+					"name" : "sfa6",
+					"strict" : false
+				},
+				{
+					"name" : "sfr0",
+					"strict" : false
+				},
+				{
+					"name" : "sfr1",
+					"strict" : false
+				},
+				{
+					"name" : "sfr2",
+					"strict" : false
+				},
+				{
+					"name" : "sfr3",
+					"strict" : false
+				},
+				{
+					"name" : "sfr4",
+					"strict" : false
+				},
+				{
+					"name" : "sfr5",
+					"strict" : false
+				},
+				{
+					"name" : "sfr6",
+					"strict" : false
+				},
+				{
+					"name" : "a_0",
+					"strict" : false
+				},
+				{
+					"name" : "a_1",
+					"strict" : false
+				},
+				{
+					"name" : "a_2",
+					"strict" : false
+				},
+				{
+					"name" : "a_3",
+					"strict" : false
+				},
+				{
+					"name" : "a_4",
+					"strict" : false
+				},
+				{
+					"name" : "a_5",
+					"strict" : false
+				},
+				{
+					"name" : "a_6",
+					"strict" : false
+				},
+				{
+					"name" : "b_0",
+					"strict" : false
+				},
+				{
+					"name" : "b_1",
+					"strict" : false
+				},
+				{
+					"name" : "b_2",
+					"strict" : false
+				},
+				{
+					"name" : "b_3",
+					"strict" : false
+				},
+				{
+					"name" : "b_4",
+					"strict" : false
+				},
+				{
+					"name" : "b_5",
+					"strict" : false
+				},
+				{
+					"name" : "b_6",
+					"strict" : false
+				},
+				{
+					"name" : "sinal_final_A",
+					"strict" : false
+				},
+				{
+					"name" : "sinal_final_B",
+					"strict" : false
+				},
+				{
+					"name" : "sinal_A",
+					"strict" : false
+				},
+				{
+					"name" : "sinal_B",
+					"strict" : false
+				},
+				{
+					"name" : "B0",
+					"strict" : false
+				},
+				{
+					"name" : "B2",
+					"strict" : false
+				},
+				{
+					"name" : "B1",
+					"strict" : false
+				},
+				{
+					"name" : "B3",
+					"strict" : false
+				},
+				{
+					"name" : "A2",
+					"strict" : false
+				},
+				{
+					"name" : "A3",
+					"strict" : false
+				},
+				{
+					"name" : "A1",
+					"strict" : false
+				},
+				{
+					"name" : "A0",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
