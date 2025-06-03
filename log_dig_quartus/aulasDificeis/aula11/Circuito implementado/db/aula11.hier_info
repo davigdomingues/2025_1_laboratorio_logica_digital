@@ -1079,82 +1079,6 @@ IN2 => 3.IN0
 IN3 => 3.IN1
 
 
-|aula11|divisorModulo:inst32
-subtracao_acumulada <= 21mux:inst5.Y
-seletor_externo => 21mux:inst5.S
-bit_A => subtratorCompleto:inst.A
-bit_A => 21mux:inst5.A
-bit_B => subtratorCompleto:inst.B
-bit_subtracao_acumulada => subtratorCompleto:inst.Bin
-borrow_acumulado <= subtratorCompleto:inst.Bout
-
-
-|aula11|divisorModulo:inst32|21mux:inst5
-Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
-A => 6.IN0
-S => 6.IN1
-S => 7.IN1
-B => 8.IN0
-
-
-|aula11|divisorModulo:inst32|subtratorCompleto:inst
-Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-A => inst5.IN0
-A => inst6.IN0
-A => XOR3:inst.IN1
-B => inst2.IN1
-B => inst4.IN0
-B => XOR3:inst.IN2
-Bin => inst1.IN0
-Bin => XOR3:inst.IN3
-D <= XOR3:inst.OUT
-
-
-|aula11|divisorModulo:inst32|subtratorCompleto:inst|XOR3:inst
-OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
-IN1 => 1.IN0
-IN2 => 3.IN0
-IN3 => 3.IN1
-
-
-|aula11|divisorModulo:inst31
-subtracao_acumulada <= 21mux:inst5.Y
-seletor_externo => 21mux:inst5.S
-bit_A => subtratorCompleto:inst.A
-bit_A => 21mux:inst5.A
-bit_B => subtratorCompleto:inst.B
-bit_subtracao_acumulada => subtratorCompleto:inst.Bin
-borrow_acumulado <= subtratorCompleto:inst.Bout
-
-
-|aula11|divisorModulo:inst31|21mux:inst5
-Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
-A => 6.IN0
-S => 6.IN1
-S => 7.IN1
-B => 8.IN0
-
-
-|aula11|divisorModulo:inst31|subtratorCompleto:inst
-Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-A => inst5.IN0
-A => inst6.IN0
-A => XOR3:inst.IN1
-B => inst2.IN1
-B => inst4.IN0
-B => XOR3:inst.IN2
-Bin => inst1.IN0
-Bin => XOR3:inst.IN3
-D <= XOR3:inst.OUT
-
-
-|aula11|divisorModulo:inst31|subtratorCompleto:inst|XOR3:inst
-OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
-IN1 => 1.IN0
-IN2 => 3.IN0
-IN3 => 3.IN1
-
-
 |aula11|divisorModulo:inst25
 subtracao_acumulada <= 21mux:inst5.Y
 seletor_externo => 21mux:inst5.S
@@ -1263,6 +1187,82 @@ D <= XOR3:inst.OUT
 
 
 |aula11|divisorModulo:inst28|subtratorCompleto:inst|XOR3:inst
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|aula11|divisorModulo:inst32
+subtracao_acumulada <= 21mux:inst5.Y
+seletor_externo => 21mux:inst5.S
+bit_A => subtratorCompleto:inst.A
+bit_A => 21mux:inst5.A
+bit_B => subtratorCompleto:inst.B
+bit_subtracao_acumulada => subtratorCompleto:inst.Bin
+borrow_acumulado <= subtratorCompleto:inst.Bout
+
+
+|aula11|divisorModulo:inst32|21mux:inst5
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|aula11|divisorModulo:inst32|subtratorCompleto:inst
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst6.IN0
+A => XOR3:inst.IN1
+B => inst2.IN1
+B => inst4.IN0
+B => XOR3:inst.IN2
+Bin => inst1.IN0
+Bin => XOR3:inst.IN3
+D <= XOR3:inst.OUT
+
+
+|aula11|divisorModulo:inst32|subtratorCompleto:inst|XOR3:inst
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|aula11|divisorModulo:inst31
+subtracao_acumulada <= 21mux:inst5.Y
+seletor_externo => 21mux:inst5.S
+bit_A => subtratorCompleto:inst.A
+bit_A => 21mux:inst5.A
+bit_B => subtratorCompleto:inst.B
+bit_subtracao_acumulada => subtratorCompleto:inst.Bin
+borrow_acumulado <= subtratorCompleto:inst.Bout
+
+
+|aula11|divisorModulo:inst31|21mux:inst5
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|aula11|divisorModulo:inst31|subtratorCompleto:inst
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst6.IN0
+A => XOR3:inst.IN1
+B => inst2.IN1
+B => inst4.IN0
+B => XOR3:inst.IN2
+Bin => inst1.IN0
+Bin => XOR3:inst.IN3
+D <= XOR3:inst.OUT
+
+
+|aula11|divisorModulo:inst31|subtratorCompleto:inst|XOR3:inst
 OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
 IN1 => 1.IN0
 IN2 => 3.IN0

@@ -1,11 +1,11 @@
-Fitter Status : Successful - Sat May 31 00:59:02 2025
+Fitter Status : Successful - Tue Jun  3 12:41:24 2025
 Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 Revision Name : aula11
 Top-level Entity Name : aula11
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 36 / 18,480 ( < 1 % )
+Logic utilization (in ALMs) : 33 / 18,480 ( < 1 % )
 Total registers : 0
 Total pins : 56 / 224 ( 25 % )
 Total virtual pins : 0

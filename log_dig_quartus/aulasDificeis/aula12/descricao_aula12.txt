@@ -1,0 +1,75 @@
+Nome: Davi Gabriel Domingues
+N° USP: 15447497
+
+O projeto da aula12 foi acerca de um circuito lógico booleano que simulasse fielmente um radiciador completo de palavras de 8 bits.
+
+O objetivo foi projetar um circuito lógico o qual mostrasse corretamente todos os casos lógicos para
+o multiplicador solicitado.
+
+Contextualização:
+Foi utilizado o circuito de display hexadecimal, construído devidamente na aula04, para mostrar os resultados corretamente na placa utilizada no laboratório.
+Além disso, foi-se usado o somador de 1 bit, gerado na aula05.
+
+A magnitude foi tratada puramente com um tratamento de acendimento de LED separado, já que, na prática, não há necessidade de se fazer uma lógica de
+complemento de dois para um processo o qual o sinal não influenciará o resultado final prático 
+
+Usou-se a simplificação booleana das saídas para otimizar o circuito lógico. Nesse caso, as equações Booleanas são as mesmas presentes nos projetos das aulas aula04, aula07 e aula11,
+uma vez que, para se compor o circuito, foram utilizados qdf's (quartus diagram files) para reaproveitar os circuitos já produzidos anteriormente.
+
+Além disso, foi-se implementado a lógica do componente divisorModulo (componente já documentado da aula 11)
+
+Entradas:
+SW0 [nomeada como A0]
+SW1 [nomeada como A1]
+SW2 [nomeada como A2]
+SW3 [nomeada como A3]
+SW4 [nomeada como A4]
+SW5 [nomeada como A5]
+SW6 [nomeada como A6]
+SW7 [nomeada como A7]
+
+Saídas:
+- Input A:
+HEX00 [nomeada como sa0]
+HEX01 [nomeada como sa1]
+HEX02 [nomeada como sa2]
+HEX03 [nomeada como sa3]
+HEX04 [nomeada como sa4]
+HEX05 [nomeada como sa5]
+HEX06 [nomeada como sa6]
+HEX10 [nomeada como sa7]
+HEX11 [nomeada como sa8]
+HEX12 [nomeada como sa9]
+HEX13 [nomeada como sa10]
+HEX14 [nomeada como sa11]
+HEX15 [nomeada como sa12]
+HEX16 [nomeada como sa13]
+
+- Output do resto:
+HEX20 [nomeada como sfr0]
+HEX21 [nomeada como sfr1]
+HEX22 [nomeada como sfr2]
+HEX23 [nomeada como sfr3]
+HEX24 [nomeada como sfr4]
+HEX25 [nomeada como sfr5]
+HEX26 [nomeada como sfr6]
+HEX30 [nomeada como sfr7]
+HEX31 [nomeada como sfr8]
+HEX32 [nomeada como sfr9]
+HEX33 [nomeada como sfr10]
+HEX34 [nomeada como sfr11]
+HEX35 [nomeada como sfr12]
+HEX36 [nomeada como sfr13]
+
+- Output do resultado:
+HEX50 [nomeada como sfa0]
+HEX51 [nomeada como sfa1]
+HEX52 [nomeada como sfa2]
+HEX53 [nomeada como sfa3]
+HEX54 [nomeada como sfa4]
+HEX55 [nomeada como sfa5]
+HEX56 [nomeada como sfa6]
+
+Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
+
+A placa utilizada foi a DEO-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7).

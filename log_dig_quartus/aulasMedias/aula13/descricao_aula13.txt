@@ -1,0 +1,57 @@
+Nome: Davi Gabriel Domingues
+N° USP: 15447497
+
+O projeto da aula13 foi acerca de um circuito lógico booleano que simulasse fielmente um comparador completo de palavras de 4 bits.
+
+O objetivo foi projetar um circuito lógico o qual mostrasse corretamente todos os casos lógicos para
+o comparador solicitado.
+
+Contextualização:
+Foi utilizado o circuito de display hexadecimal, construído devidamente na aula04, para mostrar os resultados corretamente na placa utilizada no laboratório.
+
+A magnitude foi tratada puramente com um tratamento de acendimento de LED separado, já que, na prática, não há necessidade de se fazer uma lógica de
+complemento de dois para um processo o qual o sinal não influenciará o resultado final prático. 
+
+Usou-se a simplificação booleana das saídas para otimizar o circuito lógico. Nesse caso, vê-se que:
+Menor = Igual NOR Maior
+Maior = (A3 AND NOT(B3)) OR (A2 AND NOT(B2) AND (A3 XNOR B3)) OR (A1 AND NOT(B1) AND (A3 XNOR B3) AND (A2 XNOR B2)) OR (A0 AND NOT(B0) AND (A3 XNOR B3) AND (A1 XNOR B1))
+Igual = (A0 XNOR B0) AND (A1 XNOR B1) AND (A2 XNOR B2) AND (A3 XNOR B3)
+
+Entradas:
+SW0 [nomeada como A0]
+SW1 [nomeada como A1]
+SW2 [nomeada como A2]
+SW3 [nomeada como A3]
+
+SW4 [nomeada como B0]
+SW5 [nomeada como B1]
+SW6 [nomeada como B2]
+SW7 [nomeada como B3]
+
+Saídas:
+- Input A:
+HEX00 [nomeada como sa0]
+HEX01 [nomeada como sa1]
+HEX02 [nomeada como sa2]
+HEX03 [nomeada como sa3]
+HEX04 [nomeada como sa4]
+HEX05 [nomeada como sa5]
+HEX06 [nomeada como sa6]
+
+- Input B:
+HEX20 [nomeada como sb0]
+HEX21 [nomeada como sb1]
+HEX22 [nomeada como sb2]
+HEX23 [nomeada como sb3]
+HEX24 [nomeada como sb4]
+HEX25 [nomeada como sb5]
+HEX26 [nomeada como sb6]
+
+- Indicação de comparação:
+LEDR0 [nomeado como Maior]
+LEDR3 [nomeado como Igual]
+LEDR9 [nomeado como Menor]
+
+Todas as portas utilizadas na placa foram configuradas, por padrão da disciplina, no ambiente de desenvolvimento quartus ii Intel Web Edition.
+
+A placa utilizada foi a DEO-CV (Placa Pequena): Cyclone V (código padrão 5CEBA4F23C7).

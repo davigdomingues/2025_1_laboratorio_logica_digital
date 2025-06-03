@@ -6473,6 +6473,26 @@ on the Quartus Prime software download page.
 	(pt 304 -376)
 	(pt 304 -368)
 )
+(connector
+	(pt 3200 640)
+	(pt 3208 640)
+)
+(connector
+	(pt 3208 584)
+	(pt 3208 640)
+)
+(connector
+	(pt 2432 584)
+	(pt 3208 584)
+)
+(connector
+	(pt 2432 584)
+	(pt 2432 672)
+)
+(connector
+	(pt 2432 672)
+	(pt 2464 672)
+)
 (junction (pt 456 24))
 (junction (pt 864 136))
 (junction (pt 1264 384))

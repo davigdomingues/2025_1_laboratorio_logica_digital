@@ -1,5 +1,5 @@
 Flow report for aula11
-Sat May 31 00:59:12 2025
+Tue Jun  3 12:42:08 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -41,14 +41,14 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Sat May 31 00:59:12 2025           ;
+; Flow Status                     ; Successful - Tue Jun  3 12:42:08 2025           ;
 ; Quartus Prime Version           ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                   ; aula11                                          ;
 ; Top-level Entity Name           ; aula11                                          ;
 ; Family                          ; Cyclone V                                       ;
 ; Device                          ; 5CEBA4F23C7                                     ;
 ; Timing Models                   ; Final                                           ;
-; Logic utilization (in ALMs)     ; 36 / 18,480 ( < 1 % )                           ;
+; Logic utilization (in ALMs)     ; 33 / 18,480 ( < 1 % )                           ;
 ; Total registers                 ; 0                                               ;
 ; Total pins                      ; 56 / 224 ( 25 % )                               ;
 ; Total virtual pins              ; 0                                               ;
@@ -68,7 +68,7 @@ on the Quartus Prime software download page.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/31/2025 00:58:35 ;
+; Start date & time ; 06/03/2025 12:40:43 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; aula11              ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ on the Quartus Prime software download page.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 113181520445779.174866391514112        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 16463151907155.174896524308976         ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -101,12 +101,12 @@ on the Quartus Prime software download page.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:06     ; 1.0                     ; 4862 MB             ; 00:00:13                           ;
-; Fitter               ; 00:00:20     ; 1.0                     ; 6665 MB             ; 00:01:13                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 4987 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.2                     ; 5302 MB             ; 00:00:04                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4739 MB             ; 00:00:01                           ;
-; Total                ; 00:00:32     ; --                      ; --                  ; 00:01:33                           ;
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4862 MB             ; 00:00:14                           ;
+; Fitter               ; 00:00:27     ; 1.0                     ; 6665 MB             ; 00:01:18                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 4987 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:19     ; 1.0                     ; 5302 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4739 MB             ; 00:00:01                           ;
+; Total                ; 00:01:03     ; --                      ; --                  ; 00:01:38                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -115,11 +115,11 @@ on the Quartus Prime software download page.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; 6-306-17         ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; 6-306-17         ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; 6-306-17         ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; 6-306-17         ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; 6-306-17         ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; 6-305-10         ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; 6-305-10         ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; 6-305-10         ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; 6-305-10         ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; 6-305-10         ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
