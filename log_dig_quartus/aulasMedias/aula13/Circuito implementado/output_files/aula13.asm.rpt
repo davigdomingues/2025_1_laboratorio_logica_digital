@@ -1,5 +1,5 @@
 Assembler report for aula13
-Tue Jun  3 09:24:02 2025
+Fri Jun 13 23:22:04 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/15447497/Desktop/aula13/output_files/aula13.sof
+  5. Assembler Device Options: D:/20250219_Davi_2_backup/Lab de LD/aula13/Circuito implementado/output_files/aula13.sof
   6. Assembler Messages
 
 
@@ -38,7 +38,7 @@ on the Quartus Prime software download page.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Jun  3 09:24:02 2025 ;
+; Assembler Status      ; Successful - Fri Jun 13 23:22:04 2025 ;
 ; Revision Name         ; aula13                                ;
 ; Top-level Entity Name ; aula13                                ;
 ; Family                ; Cyclone V                             ;
@@ -53,23 +53,23 @@ on the Quartus Prime software download page.
 +--------+---------+---------------+
 
 
-+----------------------------------------------------------+
-; Assembler Generated Files                                ;
-+----------------------------------------------------------+
-; File Name                                                ;
-+----------------------------------------------------------+
-; C:/Users/15447497/Desktop/aula13/output_files/aula13.sof ;
-+----------------------------------------------------------+
++------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                ;
++------------------------------------------------------------------------------------------+
+; File Name                                                                                ;
++------------------------------------------------------------------------------------------+
+; D:/20250219_Davi_2_backup/Lab de LD/aula13/Circuito implementado/output_files/aula13.sof ;
++------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/15447497/Desktop/aula13/output_files/aula13.sof ;
-+----------------+-------------------------------------------------------------------+
-; Option         ; Setting                                                           ;
-+----------------+-------------------------------------------------------------------+
-; JTAG usercode  ; 0x004E357A                                                        ;
-; Checksum       ; 0x004E357A                                                        ;
-+----------------+-------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/20250219_Davi_2_backup/Lab de LD/aula13/Circuito implementado/output_files/aula13.sof ;
++----------------+---------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                           ;
++----------------+---------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x004E5AD3                                                                                        ;
+; Checksum       ; 0x004E5AD3                                                                                        ;
++----------------+---------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -78,14 +78,14 @@ on the Quartus Prime software download page.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
-    Info: Processing started: Tue Jun  3 09:24:00 2025
+    Info: Processing started: Fri Jun 13 23:21:57 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off aula13 -c aula13
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4988 megabytes
-    Info: Processing ended: Tue Jun  3 09:24:02 2025
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Fri Jun 13 23:22:06 2025
+    Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:02
 
 

@@ -13,9 +13,11 @@ A magnitude foi tratada puramente com um tratamento de acendimento de LED separa
 complemento de dois para um processo o qual o sinal não influenciará o resultado final prático. 
 
 Usou-se a simplificação booleana das saídas para otimizar o circuito lógico. Nesse caso, vê-se que:
-Menor = Igual NOR Maior
-Maior = (A3 AND NOT(B3)) OR (A2 AND NOT(B2) AND (A3 XNOR B3)) OR (A1 AND NOT(B1) AND (A3 XNOR B3) AND (A2 XNOR B2)) OR (A0 AND NOT(B0) AND (A3 XNOR B3) AND (A1 XNOR B1))
-Igual = (A0 XNOR B0) AND (A1 XNOR B1) AND (A2 XNOR B2) AND (A3 XNOR B3)
+Menor = (*Igual AND sA AND NOT(sB)) OR (*Maior AND sA) OR (*Menor AND NOT (sB))
+Maior = (*Igual AND NOT(sA) AND sB) OR (*Maior AND NOT(sA)) OR (*Menor AND sB)
+Igual = *Igual AND (sA XNOR sB)
+
+Observação: as operações *Igual, *Maior e *Menor são as operações lógicas de comparação aplicadas para os módulos dos valores de A e de B, conforme a lógica interna do comparador de magnitude 4 bits tradicional.
 
 Entradas:
 SW0 [nomeada como A0]
@@ -27,6 +29,9 @@ SW4 [nomeada como B0]
 SW5 [nomeada como B1]
 SW6 [nomeada como B2]
 SW7 [nomeada como B3]
+
+SW8 [nomeada como sA]
+SW9 [nomeada como sB]
 
 Saídas:
 - Input A:
