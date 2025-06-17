@@ -52,6 +52,11 @@ HEX24 [nomeada como sb4]
 HEX25 [nomeada como sb5]
 HEX26 [nomeada como sb6]
 
+- Sinal negativo display:
+HEX16 [nomeada como negativoA]
+HEX36 [nomeada como negativoB]
+
+
 - Indicação de comparação:
 LEDR0 [nomeado como Maior]
 LEDR3 [nomeado como Igual]

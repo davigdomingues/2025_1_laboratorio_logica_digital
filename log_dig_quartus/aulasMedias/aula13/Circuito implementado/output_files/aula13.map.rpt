@@ -1,5 +1,5 @@
 Analysis & Synthesis report for aula13
-Fri Jun 13 23:21:27 2025
+Tue Jun 17 08:57:36 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -43,14 +43,14 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Jun 13 23:21:27 2025           ;
+; Analysis & Synthesis Status     ; Successful - Tue Jun 17 08:57:36 2025           ;
 ; Quartus Prime Version           ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                   ; aula13                                          ;
 ; Top-level Entity Name           ; aula13                                          ;
 ; Family                          ; Cyclone V                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
 ; Total registers                 ; 0                                               ;
-; Total pins                      ; 27                                              ;
+; Total pins                      ; 29                                              ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0                                               ;
 ; Total DSP Blocks                ; 0                                               ;
@@ -187,19 +187,19 @@ on the Quartus Prime software download page.
 ;     -- 7 input functions                    ; 0        ;
 ;     -- 6 input functions                    ; 2        ;
 ;     -- 5 input functions                    ; 4        ;
-;     -- 4 input functions                    ; 18       ;
-;     -- <=3 input functions                  ; 2        ;
+;     -- 4 input functions                    ; 19       ;
+;     -- <=3 input functions                  ; 1        ;
 ;                                             ;          ;
 ; Dedicated logic registers                   ; 0        ;
 ;                                             ;          ;
-; I/O pins                                    ; 27       ;
+; I/O pins                                    ; 29       ;
 ;                                             ;          ;
 ; Total DSP Blocks                            ; 0        ;
 ;                                             ;          ;
 ; Maximum fan-out node                        ; A1~input ;
 ; Maximum fan-out                             ; 11       ;
-; Total fan-out                               ; 152      ;
-; Average fan-out                             ; 1.90     ;
+; Total fan-out                               ; 158      ;
+; Average fan-out                             ; 1.88     ;
 +---------------------------------------------+----------+
 
 
@@ -208,8 +208,8 @@ on the Quartus Prime software download page.
 +--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------+--------------------+--------------+
 ; Compilation Hierarchy Node     ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name               ; Entity Name        ; Library Name ;
 +--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------+--------------------+--------------+
-; |aula13                        ; 26 (12)             ; 0 (0)                     ; 0                 ; 0          ; 27   ; 0            ; |aula13                           ; aula13             ; work         ;
-;    |displayHexadecimal:inst11| ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |aula13|displayHexadecimal:inst11 ; displayHexadecimal ; work         ;
+; |aula13                        ; 26 (11)             ; 0 (0)                     ; 0                 ; 0          ; 29   ; 0            ; |aula13                           ; aula13             ; work         ;
+;    |displayHexadecimal:inst11| ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |aula13|displayHexadecimal:inst11 ; displayHexadecimal ; work         ;
 ;    |displayHexadecimal:y|      ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |aula13|displayHexadecimal:y      ; displayHexadecimal ; work         ;
 +--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------+--------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -235,17 +235,17 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 40                          ;
-;     normal            ; 40                          ;
-;         1 data inputs ; 14                          ;
-;         2 data inputs ; 2                           ;
-;         4 data inputs ; 18                          ;
+; arriav_lcell_comb     ; 42                          ;
+;     normal            ; 42                          ;
+;         1 data inputs ; 16                          ;
+;         2 data inputs ; 1                           ;
+;         4 data inputs ; 19                          ;
 ;         5 data inputs ; 4                           ;
 ;         6 data inputs ; 2                           ;
-; boundary_port         ; 27                          ;
+; boundary_port         ; 29                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 2.34                        ;
+; Average LUT depth     ; 2.29                        ;
 +-----------------------+-----------------------------+
 
 
@@ -264,7 +264,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
-    Info: Processing started: Fri Jun 13 23:21:16 2025
+    Info: Processing started: Tue Jun 17 08:57:25 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off aula13 -c aula13
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -295,14 +295,14 @@ Info (12128): Elaborating entity "displayHexadecimal" for hierarchy "displayHexa
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 53 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 55 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
-    Info (21059): Implemented 17 output pins
+    Info (21059): Implemented 19 output pins
     Info (21061): Implemented 26 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4862 megabytes
-    Info: Processing ended: Fri Jun 13 23:21:27 2025
-    Info: Elapsed time: 00:00:11
+    Info: Peak virtual memory: 4863 megabytes
+    Info: Processing ended: Tue Jun 17 08:57:37 2025
+    Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:13
 
 

@@ -51,13 +51,17 @@ sinal_A => inst43.IN1
 sinal_A => inst39.IN0
 sinal_A => inst36.IN0
 sinal_A => inst33.IN0
+sinal_A => inst48.IN0
 sinal_B => inst53.IN0
 sinal_B => inst44.IN0
 sinal_B => inst35.IN1
 sinal_B => inst40.IN1
 sinal_B => inst33.IN1
+sinal_B => inst49.IN0
 Maior <= inst37.DB_MAX_OUTPUT_PORT_TYPE
 Igual <= inst61.DB_MAX_OUTPUT_PORT_TYPE
+negativoA <= inst48.DB_MAX_OUTPUT_PORT_TYPE
+negativoB <= inst49.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |aula13|displayHexadecimal:y

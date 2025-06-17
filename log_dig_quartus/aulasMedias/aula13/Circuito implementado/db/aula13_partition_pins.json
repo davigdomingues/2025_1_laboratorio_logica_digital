@@ -72,6 +72,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "negativoA",
+					"strict" : false
+				},
+				{
+					"name" : "negativoB",
+					"strict" : false
+				},
+				{
 					"name" : "A1",
 					"strict" : false
 				},

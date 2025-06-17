@@ -1,5 +1,5 @@
 Fitter report for aula13
-Fri Jun 13 23:21:47 2025
+Tue Jun 17 08:58:00 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -58,7 +58,7 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +---------------------------------+-------------------------------------------------+
-; Fitter Status                   ; Successful - Fri Jun 13 23:21:47 2025           ;
+; Fitter Status                   ; Successful - Tue Jun 17 08:58:00 2025           ;
 ; Quartus Prime Version           ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                   ; aula13                                          ;
 ; Top-level Entity Name           ; aula13                                          ;
@@ -67,7 +67,7 @@ on the Quartus Prime software download page.
 ; Timing Models                   ; Final                                           ;
 ; Logic utilization (in ALMs)     ; 15 / 18,480 ( < 1 % )                           ;
 ; Total registers                 ; 0                                               ;
-; Total pins                      ; 27 / 224 ( 12 % )                               ;
+; Total pins                      ; 29 / 224 ( 13 % )                               ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0 / 3,153,920 ( 0 % )                           ;
 ; Total RAM Blocks                ; 0 / 308 ( 0 % )                                 ;
@@ -153,11 +153,10 @@ on the Quartus Prime software download page.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
-;     Processor 3            ;   0.2%      ;
+;     Processor 2            ;   0.3%      ;
+;     Processor 3            ;   0.3%      ;
 ;     Processor 4            ;   0.2%      ;
-;     Processor 5            ;   0.2%      ;
-;     Processors 6-8         ;   0.1%      ;
+;     Processors 5-8         ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -167,8 +166,8 @@ on the Quartus Prime software download page.
 ; Type                ; Total [A + B]     ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+-------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                   ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 81 ) ; 0.00 % ( 0 / 81 )          ; 0.00 % ( 0 / 81 )        ;
-;     -- Achieved     ; 0.00 % ( 0 / 81 ) ; 0.00 % ( 0 / 81 )          ; 0.00 % ( 0 / 81 )        ;
+;     -- Requested    ; 0.00 % ( 0 / 85 ) ; 0.00 % ( 0 / 85 )          ; 0.00 % ( 0 / 85 )        ;
+;     -- Achieved     ; 0.00 % ( 0 / 85 ) ; 0.00 % ( 0 / 85 )          ; 0.00 % ( 0 / 85 )        ;
 ;                     ;                   ;                            ;                          ;
 ; Routing (by net)    ;                   ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )  ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -191,7 +190,7 @@ on the Quartus Prime software download page.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 81 )     ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 85 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 0 )      ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -223,16 +222,16 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ;                                                             ;                    ;       ;
 ; Difficulty packing design                                   ; Low                ;       ;
 ;                                                             ;                    ;       ;
-; Total LABs:  partially or completely used                   ; 5 / 1,848          ; < 1 % ;
-;     -- Logic LABs                                           ; 5                  ;       ;
+; Total LABs:  partially or completely used                   ; 4 / 1,848          ; < 1 % ;
+;     -- Logic LABs                                           ; 4                  ;       ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                  ;       ;
 ;                                                             ;                    ;       ;
 ; Combinational ALUT usage for logic                          ; 27                 ;       ;
 ;     -- 7 input functions                                    ; 0                  ;       ;
 ;     -- 6 input functions                                    ; 2                  ;       ;
 ;     -- 5 input functions                                    ; 4                  ;       ;
-;     -- 4 input functions                                    ; 18                 ;       ;
-;     -- <=3 input functions                                  ; 3                  ;       ;
+;     -- 4 input functions                                    ; 19                 ;       ;
+;     -- <=3 input functions                                  ; 2                  ;       ;
 ; Combinational ALUT usage for route-throughs                 ; 0                  ;       ;
 ;                                                             ;                    ;       ;
 ; Dedicated logic registers                                   ; 0                  ;       ;
@@ -244,7 +243,7 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ;         -- Routing optimization registers                   ; 0                  ;       ;
 ;                                                             ;                    ;       ;
 ; Virtual pins                                                ; 0                  ;       ;
-; I/O pins                                                    ; 27 / 224           ; 12 %  ;
+; I/O pins                                                    ; 29 / 224           ; 13 %  ;
 ;     -- Clock pins                                           ; 1 / 9              ; 11 %  ;
 ;     -- Dedicated input pins                                 ; 0 / 11             ; 0 %   ;
 ;                                                             ;                    ;       ;
@@ -268,11 +267,11 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ; Oscillator blocks                                           ; 0 / 1              ; 0 %   ;
 ; Impedance control blocks                                    ; 0 / 3              ; 0 %   ;
 ; Average interconnect usage (total/H/V)                      ; 0.0% / 0.0% / 0.0% ;       ;
-; Peak interconnect usage (total/H/V)                         ; 0.4% / 0.4% / 0.3% ;       ;
+; Peak interconnect usage (total/H/V)                         ; 0.5% / 0.5% / 0.5% ;       ;
 ; Maximum fan-out                                             ; 11                 ;       ;
 ; Highest non-global fan-out                                  ; 11                 ;       ;
-; Total fan-out                                               ; 152                ;       ;
-; Average fan-out                                             ; 1.88               ;       ;
+; Total fan-out                                               ; 158                ;       ;
+; Average fan-out                                             ; 1.86               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -297,16 +296,16 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ;                                                             ;                      ;                                ;
 ; Difficulty packing design                                   ; Low                  ; Low                            ;
 ;                                                             ;                      ;                                ;
-; Total LABs:  partially or completely used                   ; 5 / 1848 ( < 1 % )   ; 0 / 1848 ( 0 % )               ;
-;     -- Logic LABs                                           ; 5                    ; 0                              ;
+; Total LABs:  partially or completely used                   ; 4 / 1848 ( < 1 % )   ; 0 / 1848 ( 0 % )               ;
+;     -- Logic LABs                                           ; 4                    ; 0                              ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Combinational ALUT usage for logic                          ; 27                   ; 0                              ;
 ;     -- 7 input functions                                    ; 0                    ; 0                              ;
 ;     -- 6 input functions                                    ; 2                    ; 0                              ;
 ;     -- 5 input functions                                    ; 4                    ; 0                              ;
-;     -- 4 input functions                                    ; 18                   ; 0                              ;
-;     -- <=3 input functions                                  ; 3                    ; 0                              ;
+;     -- 4 input functions                                    ; 19                   ; 0                              ;
+;     -- <=3 input functions                                  ; 2                    ; 0                              ;
 ; Combinational ALUT usage for route-throughs                 ; 0                    ; 0                              ;
 ; Memory ALUT usage                                           ; 0                    ; 0                              ;
 ;     -- 64-address deep                                      ; 0                    ; 0                              ;
@@ -322,7 +321,7 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ;                                                             ;                      ;                                ;
 ;                                                             ;                      ;                                ;
 ; Virtual pins                                                ; 0                    ; 0                              ;
-; I/O pins                                                    ; 27                   ; 0                              ;
+; I/O pins                                                    ; 29                   ; 0                              ;
 ; I/O registers                                               ; 0                    ; 0                              ;
 ; Total block memory bits                                     ; 0                    ; 0                              ;
 ; Total block memory implementation bits                      ; 0                    ; 0                              ;
@@ -334,7 +333,7 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ;     -- Registered Output Connections                        ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Internal Connections                                        ;                      ;                                ;
-;     -- Total Connections                                    ; 152                  ; 0                              ;
+;     -- Total Connections                                    ; 158                  ; 0                              ;
 ;     -- Registered Connections                               ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; External Connections                                        ;                      ;                                ;
@@ -343,7 +342,7 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ;                                                             ;                      ;                                ;
 ; Partition Interface                                         ;                      ;                                ;
 ;     -- Input Ports                                          ; 10                   ; 0                              ;
-;     -- Output Ports                                         ; 17                   ; 0                              ;
+;     -- Output Ports                                         ; 19                   ; 0                              ;
 ;     -- Bidir Ports                                          ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Registered Ports                                            ;                      ;                                ;
@@ -375,34 +374,36 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ; B1      ; AB15  ; 4A       ; 36           ; 0            ; 51           ; 11                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; B2      ; AA14  ; 4A       ; 34           ; 0            ; 51           ; 11                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; B3      ; AA13  ; 4A       ; 34           ; 0            ; 34           ; 11                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; sinal_A ; AB13  ; 4A       ; 33           ; 0            ; 91           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; sinal_B ; AB12  ; 4A       ; 33           ; 0            ; 74           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; sinal_A ; AB13  ; 4A       ; 33           ; 0            ; 91           ; 4                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; sinal_B ; AB12  ; 4A       ; 33           ; 0            ; 74           ; 4                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 +---------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Output Pins                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;
-+-------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
-; Name  ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Output Buffer Delay ; Output Buffer Delay Control ; Location assigned by ; Output Enable Source ; Output Enable Group ;
-+-------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
-; Igual ; Y3    ; 2A       ; 0            ; 18           ; 43           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; Maior ; AA2   ; 2A       ; 0            ; 18           ; 77           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; Menor ; L1    ; 2A       ; 0            ; 20           ; 54           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sa0   ; U21   ; 4A       ; 52           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sa1   ; V21   ; 4A       ; 51           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sa2   ; W22   ; 4A       ; 48           ; 0            ; 74           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sa3   ; W21   ; 4A       ; 50           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sa4   ; Y22   ; 4A       ; 48           ; 0            ; 91           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sa5   ; Y21   ; 4A       ; 50           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sa6   ; AA22  ; 4A       ; 46           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sb0   ; Y19   ; 4A       ; 48           ; 0            ; 40           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sb1   ; AB17  ; 4A       ; 38           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sb2   ; AA10  ; 3B       ; 22           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sb3   ; Y14   ; 4A       ; 36           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sb4   ; V14   ; 4A       ; 38           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sb5   ; AB22  ; 4A       ; 46           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; sb6   ; AB21  ; 4A       ; 40           ; 0            ; 74           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-+-------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Output Pins                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
++-----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
+; Name      ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Output Buffer Delay ; Output Buffer Delay Control ; Location assigned by ; Output Enable Source ; Output Enable Group ;
++-----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
+; Igual     ; Y3    ; 2A       ; 0            ; 18           ; 43           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; Maior     ; AA2   ; 2A       ; 0            ; 18           ; 77           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; Menor     ; L1    ; 2A       ; 0            ; 20           ; 54           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; negativoA ; U22   ; 4A       ; 51           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; negativoB ; V19   ; 4A       ; 51           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sa0       ; U21   ; 4A       ; 52           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sa1       ; V21   ; 4A       ; 51           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sa2       ; W22   ; 4A       ; 48           ; 0            ; 74           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sa3       ; W21   ; 4A       ; 50           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sa4       ; Y22   ; 4A       ; 48           ; 0            ; 91           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sa5       ; Y21   ; 4A       ; 50           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sa6       ; AA22  ; 4A       ; 46           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sb0       ; Y19   ; 4A       ; 48           ; 0            ; 40           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sb1       ; AB17  ; 4A       ; 38           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sb2       ; AA10  ; 3B       ; 22           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sb3       ; Y14   ; 4A       ; 36           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sb4       ; V14   ; 4A       ; 38           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sb5       ; AB22  ; 4A       ; 46           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; sb6       ; AB21  ; 4A       ; 40           ; 0            ; 74           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
++-----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
 +----------------------------------------------------------------------------+
@@ -413,7 +414,7 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ; 2A       ; 3 / 16 ( 19 % )  ; 2.5V          ; --           ; 2.5V          ;
 ; 3A       ; 0 / 16 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
 ; 3B       ; 1 / 32 ( 3 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 4A       ; 23 / 48 ( 48 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 4A       ; 25 / 48 ( 52 % ) ; 2.5V          ; --           ; 2.5V          ;
 ; 5A       ; 0 / 16 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
 ; 5B       ; 0 / 16 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
 ; 7A       ; 0 / 48 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
@@ -843,7 +844,7 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ; U19      ;            ; 4A       ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; U20      ; 153        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; U21      ; 151        ; 4A       ; sa0                             ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; U22      ; 146        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; U22      ; 146        ; 4A       ; negativoA                       ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; V1       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; V2       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; V3       ; 56         ; 3A       ; ^DCLK                           ;        ;              ;                     ; Weak Pull Up ;                 ; --       ; On           ;
@@ -862,7 +863,7 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 ; V16      ; 134        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; V17      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; V18      ; 149        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; V19      ; 147        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; V19      ; 147        ; 4A       ; negativoB                       ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; V20      ; 131        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; V21      ; 148        ; 4A       ; sa1                             ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; V22      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -914,39 +915,41 @@ The pin-out file can be found in D:/20250219_Davi_2_backup/Lab de LD/aula13/Circ
 Note: Pin directions (input, output or bidir) are based on device operating in user mode.
 
 
-+------------------------------------------+
-; I/O Assignment Warnings                  ;
-+----------+-------------------------------+
-; Pin Name ; Reason                        ;
-+----------+-------------------------------+
-; sa0      ; Incomplete set of assignments ;
-; sa1      ; Incomplete set of assignments ;
-; sa2      ; Incomplete set of assignments ;
-; sa3      ; Incomplete set of assignments ;
-; sa4      ; Incomplete set of assignments ;
-; sa5      ; Incomplete set of assignments ;
-; sa6      ; Incomplete set of assignments ;
-; sb0      ; Incomplete set of assignments ;
-; sb1      ; Incomplete set of assignments ;
-; sb2      ; Incomplete set of assignments ;
-; sb3      ; Incomplete set of assignments ;
-; sb4      ; Incomplete set of assignments ;
-; sb5      ; Incomplete set of assignments ;
-; sb6      ; Incomplete set of assignments ;
-; Menor    ; Incomplete set of assignments ;
-; Maior    ; Incomplete set of assignments ;
-; Igual    ; Incomplete set of assignments ;
-; A1       ; Incomplete set of assignments ;
-; A3       ; Incomplete set of assignments ;
-; A2       ; Incomplete set of assignments ;
-; A0       ; Incomplete set of assignments ;
-; B1       ; Incomplete set of assignments ;
-; B3       ; Incomplete set of assignments ;
-; B2       ; Incomplete set of assignments ;
-; B0       ; Incomplete set of assignments ;
-; sinal_B  ; Incomplete set of assignments ;
-; sinal_A  ; Incomplete set of assignments ;
-+----------+-------------------------------+
++-------------------------------------------+
+; I/O Assignment Warnings                   ;
++-----------+-------------------------------+
+; Pin Name  ; Reason                        ;
++-----------+-------------------------------+
+; sa0       ; Incomplete set of assignments ;
+; sa1       ; Incomplete set of assignments ;
+; sa2       ; Incomplete set of assignments ;
+; sa3       ; Incomplete set of assignments ;
+; sa4       ; Incomplete set of assignments ;
+; sa5       ; Incomplete set of assignments ;
+; sa6       ; Incomplete set of assignments ;
+; sb0       ; Incomplete set of assignments ;
+; sb1       ; Incomplete set of assignments ;
+; sb2       ; Incomplete set of assignments ;
+; sb3       ; Incomplete set of assignments ;
+; sb4       ; Incomplete set of assignments ;
+; sb5       ; Incomplete set of assignments ;
+; sb6       ; Incomplete set of assignments ;
+; Menor     ; Incomplete set of assignments ;
+; Maior     ; Incomplete set of assignments ;
+; Igual     ; Incomplete set of assignments ;
+; negativoA ; Incomplete set of assignments ;
+; negativoB ; Incomplete set of assignments ;
+; A1        ; Incomplete set of assignments ;
+; A3        ; Incomplete set of assignments ;
+; A2        ; Incomplete set of assignments ;
+; A0        ; Incomplete set of assignments ;
+; B1        ; Incomplete set of assignments ;
+; B3        ; Incomplete set of assignments ;
+; B2        ; Incomplete set of assignments ;
+; B0        ; Incomplete set of assignments ;
+; sinal_B   ; Incomplete set of assignments ;
+; sinal_A   ; Incomplete set of assignments ;
++-----------+-------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -954,46 +957,48 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +--------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------+--------------------+--------------+
 ; Compilation Hierarchy Node     ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name               ; Entity Name        ; Library Name ;
 +--------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------+--------------------+--------------+
-; |aula13                        ; 14.5 (7.5)           ; 15.5 (8.5)                       ; 1.0 (1.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 27 (13)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 27   ; 0            ; |aula13                           ; aula13             ; work         ;
-;    |displayHexadecimal:inst11| ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |aula13|displayHexadecimal:inst11 ; displayHexadecimal ; work         ;
+; |aula13                        ; 14.5 (7.0)           ; 15.5 (8.0)                       ; 1.0 (1.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 27 (12)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 29   ; 0            ; |aula13                           ; aula13             ; work         ;
+;    |displayHexadecimal:inst11| ; 4.0 (4.0)            ; 4.0 (4.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (8)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |aula13|displayHexadecimal:inst11 ; displayHexadecimal ; work         ;
 ;    |displayHexadecimal:y|      ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |aula13|displayHexadecimal:y      ; displayHexadecimal ; work         ;
 +--------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------+--------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Delay Chain Summary                                                                                                    ;
-+---------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
-; Name    ; Pin Type ; D1 ; D3_0 ; D3_1 ; D4 ; D5   ; D5 OE ; D5 OCT ; T11 (Postamble Gating) ; T11 (Postamble Ungating) ;
-+---------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
-; sa0     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sa1     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sa2     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sa3     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sa4     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sa5     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sa6     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sb0     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sb1     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sb2     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sb3     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sb4     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sb5     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; sb6     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; Menor   ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; Maior   ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; Igual   ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
-; A1      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; A3      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; A2      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; A0      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; B1      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; B3      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; B2      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; B0      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; sinal_B ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; sinal_A ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-+---------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Delay Chain Summary                                                                                                      ;
++-----------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
+; Name      ; Pin Type ; D1 ; D3_0 ; D3_1 ; D4 ; D5   ; D5 OE ; D5 OCT ; T11 (Postamble Gating) ; T11 (Postamble Ungating) ;
++-----------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
+; sa0       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sa1       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sa2       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sa3       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sa4       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sa5       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sa6       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sb0       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sb1       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sb2       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sb3       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sb4       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sb5       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; sb6       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; Menor     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; Maior     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; Igual     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; negativoA ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; negativoB ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; A1        ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; A3        ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; A2        ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; A0        ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; B1        ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; B3        ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; B2        ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; B0        ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; sinal_B   ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; sinal_A   ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
++-----------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 
 
 +-------------------------------------------------------------------------+
@@ -1002,17 +1007,17 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Pin / Fanout                       ; Pad To Core Index ; Setting ;
 +-------------------------------------------+-------------------+---------+
 ; A1                                        ;                   ;         ;
-;      - displayHexadecimal:y|inst14~0      ; 0                 ; 0       ;
-;      - displayHexadecimal:y|inst16~0      ; 0                 ; 0       ;
-;      - displayHexadecimal:y|inst34        ; 0                 ; 0       ;
-;      - displayHexadecimal:y|inst40~0      ; 0                 ; 0       ;
-;      - displayHexadecimal:y|inst49~0      ; 0                 ; 0       ;
-;      - displayHexadecimal:y|inst70~0      ; 0                 ; 0       ;
-;      - displayHexadecimal:y|inst82~0      ; 0                 ; 0       ;
-;      - inst30~0                           ; 0                 ; 0       ;
-;      - inst29~0                           ; 0                 ; 0       ;
-;      - inst31~1                           ; 0                 ; 0       ;
-;      - inst62~0                           ; 0                 ; 0       ;
+;      - displayHexadecimal:y|inst14~0      ; 1                 ; 0       ;
+;      - displayHexadecimal:y|inst16~0      ; 1                 ; 0       ;
+;      - displayHexadecimal:y|inst34        ; 1                 ; 0       ;
+;      - displayHexadecimal:y|inst40~0      ; 1                 ; 0       ;
+;      - displayHexadecimal:y|inst49~0      ; 1                 ; 0       ;
+;      - displayHexadecimal:y|inst70~0      ; 1                 ; 0       ;
+;      - displayHexadecimal:y|inst82~0      ; 1                 ; 0       ;
+;      - inst30~0                           ; 1                 ; 0       ;
+;      - inst62~0                           ; 1                 ; 0       ;
+;      - inst29~0                           ; 1                 ; 0       ;
+;      - inst31~1                           ; 1                 ; 0       ;
 ; A3                                        ;                   ;         ;
 ;      - displayHexadecimal:y|inst14~0      ; 0                 ; 0       ;
 ;      - displayHexadecimal:y|inst16~0      ; 0                 ; 0       ;
@@ -1023,8 +1028,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - displayHexadecimal:y|inst82~0      ; 0                 ; 0       ;
 ;      - inst30~1                           ; 0                 ; 0       ;
 ;      - inst31~0                           ; 0                 ; 0       ;
-;      - inst31~2                           ; 0                 ; 0       ;
 ;      - inst62~0                           ; 0                 ; 0       ;
+;      - inst31~2                           ; 0                 ; 0       ;
 ; A2                                        ;                   ;         ;
 ;      - displayHexadecimal:y|inst14~0      ; 0                 ; 0       ;
 ;      - displayHexadecimal:y|inst16~0      ; 0                 ; 0       ;
@@ -1035,8 +1040,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - displayHexadecimal:y|inst82~0      ; 0                 ; 0       ;
 ;      - inst30~1                           ; 0                 ; 0       ;
 ;      - inst31~0                           ; 0                 ; 0       ;
-;      - inst31~2                           ; 0                 ; 0       ;
 ;      - inst62~0                           ; 0                 ; 0       ;
+;      - inst31~2                           ; 0                 ; 0       ;
 ; A0                                        ;                   ;         ;
 ;      - displayHexadecimal:y|inst14~0      ; 0                 ; 0       ;
 ;      - displayHexadecimal:y|inst16~0      ; 0                 ; 0       ;
@@ -1046,9 +1051,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - displayHexadecimal:y|inst70~0      ; 0                 ; 0       ;
 ;      - displayHexadecimal:y|inst82~0      ; 0                 ; 0       ;
 ;      - inst30~0                           ; 0                 ; 0       ;
+;      - inst62~0                           ; 0                 ; 0       ;
 ;      - inst29~0                           ; 0                 ; 0       ;
 ;      - inst31~1                           ; 0                 ; 0       ;
-;      - inst62~0                           ; 0                 ; 0       ;
 ; B1                                        ;                   ;         ;
 ;      - displayHexadecimal:inst11|inst14~0 ; 0                 ; 0       ;
 ;      - displayHexadecimal:inst11|inst16~0 ; 0                 ; 0       ;
@@ -1058,9 +1063,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - displayHexadecimal:inst11|inst70~0 ; 0                 ; 0       ;
 ;      - displayHexadecimal:inst11|inst82~0 ; 0                 ; 0       ;
 ;      - inst30~0                           ; 0                 ; 0       ;
+;      - displayHexadecimal:inst11|inst16~1 ; 0                 ; 0       ;
 ;      - inst29~0                           ; 0                 ; 0       ;
 ;      - inst31~1                           ; 0                 ; 0       ;
-;      - inst61                             ; 0                 ; 0       ;
 ; B3                                        ;                   ;         ;
 ;      - displayHexadecimal:inst11|inst14~0 ; 0                 ; 0       ;
 ;      - displayHexadecimal:inst11|inst16~0 ; 0                 ; 0       ;
@@ -1070,9 +1075,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - displayHexadecimal:inst11|inst70~0 ; 0                 ; 0       ;
 ;      - displayHexadecimal:inst11|inst82~0 ; 0                 ; 0       ;
 ;      - inst30~1                           ; 0                 ; 0       ;
+;      - displayHexadecimal:inst11|inst16~1 ; 0                 ; 0       ;
 ;      - inst31~0                           ; 0                 ; 0       ;
 ;      - inst31~2                           ; 0                 ; 0       ;
-;      - inst61                             ; 0                 ; 0       ;
 ; B2                                        ;                   ;         ;
 ;      - displayHexadecimal:inst11|inst14~0 ; 0                 ; 0       ;
 ;      - displayHexadecimal:inst11|inst16~0 ; 0                 ; 0       ;
@@ -1083,8 +1088,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - displayHexadecimal:inst11|inst82~0 ; 0                 ; 0       ;
 ;      - inst30~1                           ; 0                 ; 0       ;
 ;      - inst31~0                           ; 0                 ; 0       ;
-;      - inst31~2                           ; 0                 ; 0       ;
 ;      - inst62~0                           ; 0                 ; 0       ;
+;      - inst31~2                           ; 0                 ; 0       ;
 ; B0                                        ;                   ;         ;
 ;      - displayHexadecimal:inst11|inst14~0 ; 0                 ; 0       ;
 ;      - displayHexadecimal:inst11|inst16~0 ; 0                 ; 0       ;
@@ -1094,17 +1099,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - displayHexadecimal:inst11|inst70~0 ; 0                 ; 0       ;
 ;      - displayHexadecimal:inst11|inst82~0 ; 0                 ; 0       ;
 ;      - inst30~0                           ; 0                 ; 0       ;
+;      - inst62~0                           ; 0                 ; 0       ;
 ;      - inst29~0                           ; 0                 ; 0       ;
 ;      - inst31~1                           ; 0                 ; 0       ;
-;      - inst62~0                           ; 0                 ; 0       ;
 ; sinal_B                                   ;                   ;         ;
-;      - inst42~0                           ; 0                 ; 0       ;
+;      - inst42~1                           ; 0                 ; 0       ;
 ;      - inst37~0                           ; 0                 ; 0       ;
-;      - inst33                             ; 0                 ; 0       ;
+;      - inst61                             ; 0                 ; 0       ;
+;      - negativoB~output                   ; 0                 ; 0       ;
 ; sinal_A                                   ;                   ;         ;
-;      - inst42~0                           ; 0                 ; 0       ;
-;      - inst37~0                           ; 0                 ; 0       ;
-;      - inst33                             ; 0                 ; 0       ;
+;      - inst42~1                           ; 1                 ; 0       ;
+;      - inst37~0                           ; 1                 ; 0       ;
+;      - inst61                             ; 1                 ; 0       ;
+;      - negativoA~output                   ; 1                 ; 0       ;
 +-------------------------------------------+-------------------+---------+
 
 
@@ -1113,10 +1120,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------+------------------------+
 ; Routing Resource Type        ; Usage                  ;
 +------------------------------+------------------------+
-; Block interconnects          ; 37 / 140,056 ( < 1 % ) ;
-; C12 interconnects            ; 0 / 6,048 ( 0 % )      ;
-; C2 interconnects             ; 18 / 54,648 ( < 1 % )  ;
-; C4 interconnects             ; 22 / 25,920 ( < 1 % )  ;
+; Block interconnects          ; 41 / 140,056 ( < 1 % ) ;
+; C12 interconnects            ; 2 / 6,048 ( < 1 % )    ;
+; C2 interconnects             ; 20 / 54,648 ( < 1 % )  ;
+; C4 interconnects             ; 24 / 25,920 ( < 1 % )  ;
 ; DQS bus muxes                ; 0 / 17 ( 0 % )         ;
 ; DQS-18 I/O buses             ; 0 / 17 ( 0 % )         ;
 ; DQS-9 I/O buses              ; 0 / 17 ( 0 % )         ;
@@ -1124,10 +1131,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Global clocks                ; 0 / 16 ( 0 % )         ;
 ; Local interconnects          ; 5 / 36,960 ( < 1 % )   ;
 ; Quadrant clocks              ; 0 / 88 ( 0 % )         ;
-; R14 interconnects            ; 9 / 5,984 ( < 1 % )    ;
-; R14/C12 interconnect drivers ; 9 / 9,504 ( < 1 % )    ;
-; R3 interconnects             ; 27 / 60,192 ( < 1 % )  ;
-; R6 interconnects             ; 27 / 127,072 ( < 1 % ) ;
+; R14 interconnects            ; 12 / 5,984 ( < 1 % )   ;
+; R14/C12 interconnect drivers ; 12 / 9,504 ( < 1 % )   ;
+; R3 interconnects             ; 22 / 60,192 ( < 1 % )  ;
+; R6 interconnects             ; 32 / 127,072 ( < 1 % ) ;
 ; Spine clocks                 ; 0 / 120 ( 0 % )        ;
 ; Wire stub REs                ; 0 / 7,344 ( 0 % )      ;
 +------------------------------+------------------------+
@@ -1188,9 +1195,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 ; Pin/Rules          ; IO_000001 ; IO_000002    ; IO_000003 ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007 ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000034    ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
-; Total Pass         ; 27        ; 0            ; 27        ; 0            ; 0            ; 27        ; 27        ; 0            ; 27        ; 27        ; 0            ; 17           ; 0            ; 0            ; 0            ; 0            ; 17           ; 0            ; 0            ; 0            ; 0            ; 17           ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
+; Total Pass         ; 29        ; 0            ; 29        ; 0            ; 0            ; 29        ; 29        ; 0            ; 29        ; 29        ; 0            ; 19           ; 0            ; 0            ; 0            ; 0            ; 19           ; 0            ; 0            ; 0            ; 0            ; 19           ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
-; Total Inapplicable ; 0         ; 27           ; 0         ; 27           ; 27           ; 0         ; 0         ; 27           ; 0         ; 0         ; 27           ; 10           ; 27           ; 27           ; 27           ; 27           ; 10           ; 27           ; 27           ; 27           ; 27           ; 10           ; 27           ; 27           ; 27           ; 27           ; 27           ; 27           ;
+; Total Inapplicable ; 0         ; 29           ; 0         ; 29           ; 29           ; 0         ; 0         ; 29           ; 0         ; 0         ; 29           ; 10           ; 29           ; 29           ; 29           ; 29           ; 10           ; 29           ; 29           ; 29           ; 29           ; 10           ; 29           ; 29           ; 29           ; 29           ; 29           ; 29           ;
 ; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; sa0                ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; sa1                ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
@@ -1209,6 +1216,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Menor              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; Maior              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; Igual              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; negativoA          ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; negativoB          ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; A1                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; A3                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; A2                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
@@ -1301,19 +1310,19 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.32 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (11888): Total time spent on timing analysis during the Fitter is 0.33 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
 Info (144001): Generated suppressed messages file D:/20250219_Davi_2_backup/Lab de LD/aula13/Circuito implementado/output_files/aula13.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 6666 megabytes
-    Info: Processing ended: Fri Jun 13 23:21:55 2025
-    Info: Elapsed time: 00:00:26
-    Info: Total CPU time (on all processors): 00:01:05
+    Info: Processing ended: Tue Jun 17 08:58:12 2025
+    Info: Elapsed time: 00:00:34
+    Info: Total CPU time (on all processors): 00:01:07
 
 
 +----------------------------+
